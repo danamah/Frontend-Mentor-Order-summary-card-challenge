@@ -36,11 +36,11 @@ body{
         width: 75%;
     }
 }
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
      .card-des{
-        width: 90%;
+        width: 80%;
     }
-}
+} */
 .card-des .image{
    
 }
