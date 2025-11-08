@@ -41,6 +41,13 @@ body{
         width: 90%;
     }
 }
+.card-des .image{
+   
+}
+.card-des .image img{
+    object-fit: contain;
+    width: 522px;
+}
 .card-des h2{
     font-weight: 700;
 }
