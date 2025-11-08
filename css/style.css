@@ -1,0 +1,85 @@
+:root{
+    --main-color:#1E1FCD;
+    --sec-color:#6A5FE8;
+    --thr-color: #F5F7FF;
+    --font-sec-color:rgb(114, 128, 167);
+
+}
+body{
+    font-family: "Red Hat Display", sans-serif;
+    background-image:linear-gradient(#e0e8ffc6),url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:600px){
+   body{
+    background-image:linear-gradient(#e0e8ffc6),url("../images/pattern-background-mobile.svg");
+}
+}
+@media screen and (max-width:768px){
+   body{
+    background-image:linear-gradient(#e0e8ffc6),url("../images/pattern-background-mobile.svg");
+}
+}
+.card-des{
+    overflow: hidden;
+    width: 40%;
+    background-color: white;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    box-shadow: 0 8px 12px #3a338543;
+}
+@media screen and (max-width:992px) {
+    .card-des{
+        width: 75%;
+    }
+}
+@media screen and (max-width:768px) {
+     .card-des{
+        width: 90%;
+    }
+}
+.card-des h2{
+    font-weight: 700;
+}
+.card-des .header p{
+    color: var(--font-sec-color);
+}
+.card-des .price{
+    background-color: var(--thr-color);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.card-des .price .left .plan p:first-child{
+    font-weight: 700;
+    font-size: 14px;
+}
+.card-des .price .left .plan p:nth-child(2){
+    color: var(--font-sec-color);
+}
+
+.card-des button:first-of-type{
+    color: white;
+    font-weight: 700;
+    background-color: var(--main-color);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 8px 12px #6156e183;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+.card-des button:first-of-type:hover{
+    background-color: var(--sec-color);
+}
